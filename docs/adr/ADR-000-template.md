@@ -25,7 +25,7 @@
 **Cons**
 
 ## Steps
-1
+1 <br>n
 2
 3
 
@@ -34,7 +34,7 @@
 
 ## Consequences
 
-## Positive
+### Positive
 
 ### Negative /Tradeoffs
 
