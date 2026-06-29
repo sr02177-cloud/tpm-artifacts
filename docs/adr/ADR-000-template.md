@@ -39,4 +39,4 @@
 ### Negative /Tradeoffs
 
 ## Lessons Learned
-[What would you do differently? What shoul the next team know going in?]
+[What would you do differently? What should the next team know going in?]
