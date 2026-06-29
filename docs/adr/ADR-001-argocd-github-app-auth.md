@@ -39,7 +39,7 @@ Create a GitHub App, install it across the organizations, and configure Argo CD 
 - no manual rotation - short-lived tkens generated automatically
 - Fine grained, installation-scoped permissions
 - Aligns with Github's recommended approach for CI/CD integration
-- Github app can be installed once on all in scope repos by in-house github team.
+- Github app can be installed once on all in scope repos by in-house GitHub team.
 
 - **Cons:**
 - higher initial setup effort
@@ -58,3 +58,12 @@ Create a GitHub App, install it across the organizations, and configure Argo CD 
 3. Installed the GitHub app across all required GitHub organizations by inhouse GitHub team.
 4. Configured Argo CD repository credentials using the Github App.
 5. Validated sync across all connected repositories.
+
+## Consequences
+
+### Positive
+- Eliminated annual PAT rotation across all connected GitHub organizations.
+- Consolidated to a signle Kubernetes secret for the GitHub App vs. maintaining a separate secret per ogranization under PAT-based auth.
+
+## Negative
+- Dependency on in-house GitHub team to install app on all in scope organizations.
