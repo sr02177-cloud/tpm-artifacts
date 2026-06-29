@@ -7,7 +7,7 @@
 [YYYY]
 
 ## Context
-[Describe the problem, pain point, or opportunity that drove this decision. Include any relevant constraints, scale, or risk factors. ]
+[Describe the problem, pain point, or opportunity that drove this decision. Include any relevant constraints, scale, or risk factors.]
 
 ## Decision
 [State the Decision clearly. What was decided and why?]
