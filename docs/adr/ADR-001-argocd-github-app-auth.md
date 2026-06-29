@@ -47,10 +47,10 @@ Create a GitHub App, install it across the organizations, and configure Argo CD 
 ## Implementation
 
 ### Components Involved
-**Argo CD**
-**Azure Key Vault**
-**AKS**
-**Github**
+**Argo CD**  
+**Azure Key Vault**  
+**AKS**  
+**Github**  
 
 ### Steps
 1. Created a GitHub app at the organizational level with repo read permissions.
